@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 1em;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+/*   min-height: 100vh; */
+  z-index: 1;
+}
+
+h1 {
+  position: relative;
+  padding: 1em 0 0.5em 0;
+  margin-top: 55vh;
+  background-color: #fff;
+}
+
+h1:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+
+.main {
+  height: auto;
+}
+
+.digital,
+.content {
+  display: inline-block;
+  padding: 1em 0 0 0;
+  position: sticky;
+  top: 5.5em;
+}
+
+.specialist {
+  position: relative;
+}
+
+.digital:before {
+  content: '';
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  z-index: -1;
+}
+
+.category--editing {
+  margin-top: 75vh;
+}
+
+.category--design {
+  margin-top: 0;
+}
+
+.category div {
+  position: sticky;
+  top: 6.5em;
+  margin-left: 158px;
+  background-color: #fff;
+}
+
+.category ul {
+  margin-left: 158px;
+  height: 280vh;
+  list-style-type: none;
+}
+
+.category li {
+  z-index: -2;
+  background-color: #fff;
+  padding-bottom: 0.25em;
+}
+
+.category ul li:first-of-type {
+  margin-top: 75vh;
+  position: sticky;
+  top: 40vh;
+}
+
+.category ul li:nth-of-type(2) {
+  margin-top: 55vh;
+  position: sticky;
+  top: 50vh;
+  z-index: -3;
+}
+
+.category ul li:nth-of-type(3) {
+  margin-top: 55vh;
+  position: sticky;
+  top: 60vh;
+  z-index: -4;
+}
+
+.category ul li:nth-of-type(4) {
+  margin-top: 55vh;
+  position: sticky;
+  top: 70vh;
+  z-index: -5;
+}
+
+.category--end {
+  margin-top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.category--end small {
+  position: sticky;
+  top: 90vh;
+  display: inline-block;
+  margin-top: 55vh;
+  padding-top: 0.5em;
+}
+
+.category--end small:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+
+.back {
+  position: sticky;
+  top: 90vh;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.back i {
+  transform: scale(1.4);
+  padding: 0 0.5em;
+}
+
